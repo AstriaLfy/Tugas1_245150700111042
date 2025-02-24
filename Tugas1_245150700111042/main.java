@@ -1,21 +1,17 @@
 public class main {
     public static void main(String[] args) {
-        // Membuat objek studio
         studio studio1 = new studio();
         studio studio2 = new studio();
         studio studio3 = new studio();
 
-        // Membuat objek film
         film film1 = new film();
         film film2 = new film();
         film film3 = new film();
 
-        // Membuat objek tiket
         tiket tiket1 = new tiket();
         tiket tiket2 = new tiket();
         tiket tiket3 = new tiket();
 
-        // Membuat objek penonton
         penonton penonton1 = new penonton();
         penonton penonton2 = new penonton();
         penonton penonton3 = new penonton();
@@ -27,7 +23,7 @@ public class main {
 
         film1.setjudul("Surat Cinta dari Masa Depan");
         film1.setgenre("Romance");
-        film1.setjamTayang(14); // 14:00 dalam format 24 jam
+        film1.setjamTayang("14:00 - 16:00");
         film1.sethargaTiket(40000);
         film1.displayInfo();
 
@@ -38,7 +34,7 @@ public class main {
 
         film2.setjudul("Petualangan di Ujung Dunia");
         film2.setgenre("Adventure");
-        film2.setjamTayang(16); // 16:00 dalam format 24 jam
+        film2.setjamTayang("16:00 - 18:00");
         film2.sethargaTiket(50000);
         film2.displayInfo();
 
@@ -49,7 +45,7 @@ public class main {
 
         film3.setjudul("Komedi Keluarga");
         film3.setgenre("Comedy");
-        film3.setjamTayang(18); // 18:00 dalam format 24 jam
+        film3.setjamTayang("18:00 - 20.00"); // 18:00 dalam format 24 jam
         film3.sethargaTiket(30000);
         film3.displayInfo();
 
